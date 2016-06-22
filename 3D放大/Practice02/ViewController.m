@@ -8,7 +8,10 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
+@interface ViewController ()<UITableViewDataSource,UITableViewDelegate> {
+
+    int a;
+}
 
 @end
 
