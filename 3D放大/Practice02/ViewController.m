@@ -11,6 +11,7 @@
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate> {
 
     int a;
+    NSString *_name;
 }
 
 @end
